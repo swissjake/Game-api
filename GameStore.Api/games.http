@@ -1,0 +1,25 @@
+GET http://localhost:5190/games
+
+###
+GET http://localhost:5190/games/6
+###
+POST  http://localhost:5190/games
+Content-Type: application/json
+
+{
+  # "name": "Game Title",
+  "genre": "Game Description",
+  "price": 59.99,
+  "releaseDate": "2023-10-01"
+}
+
+###
+PUT  http://localhost:5190/games/9
+Content-Type: application/json
+
+{
+  "name": "Updated Game Title Updated Game Title Updated Game Title Updated Game Title Updated Game Title Updated Game Title Updated Game Title",
+  "genre": "Updated Game Description",
+  "price": 100.99,
+  "releaseDate": "2023-11-01"
+}
