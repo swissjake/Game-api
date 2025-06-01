@@ -1,0 +1,11 @@
+# Build artifacts
+bin/
+obj/
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+
+# IDE settings
+.vscode/
