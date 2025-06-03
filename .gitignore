@@ -9,3 +9,6 @@ obj/
 
 # IDE settings
 .vscode/
+
+# HTTP requests
+*.http
