@@ -1,20 +1,20 @@
 GET http://localhost:5190/games
 
 ###
-GET http://localhost:5190/games/6
+GET http://localhost:5190/games/1
 ###
 POST  http://localhost:5190/games
 Content-Type: application/json
 
 {
-  "name": "Game Title",
-  "genreId": 1,
+  "name": "Call of Duty: Modern Warfare",
+  "genreId": 4,
   "price": 59.99,
   "releaseDate": "2023-10-01"
 }
 
 ###
-PUT  http://localhost:5190/games/1
+PUT  http://localhost:5190/games/2
 Content-Type: application/json
 
 {
@@ -23,3 +23,9 @@ Content-Type: application/json
   "price": 20.99,
   "releaseDate": "2023-11-01"
 }
+
+###
+
+DELETE http://localhost:5190/games/1
+Content-Type: application/json
+
