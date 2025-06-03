@@ -1,6 +1,0 @@
-GET http://localhost:5190/genres
-
-###
-GET http://localhost:5190/genres/1
-
-###
