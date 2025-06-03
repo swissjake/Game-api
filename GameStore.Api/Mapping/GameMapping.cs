@@ -23,7 +23,7 @@ public static class GameMapping
     // GameSummaryDto
     public static GameSummaryDto ToGameSummaryDto(this Game game)
     {
-        return new(game.Id, game.Name, game.Genre!.Name, game.Price, game.ReleaseDate);
+        return new(game.Id, game.Name, game.Genre?.Name ?? "Unknown", game.Price, game.ReleaseDate);
     }
 
     // GameDetailsDto
